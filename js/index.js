@@ -50,16 +50,48 @@ logo.setAttribute('src', siteContent.nav["img-src"]);
 
 // Selectors
 const navItems = document.querySelectorAll('a');
-const title = document.getElementById('title');
-document.getElementsByTagName('link')
 
-const cta = document.querySelectorAll(.cta);
+const title = document.getElementById('title');
+
+
+const cta = document.querySelectorAll('cta');
 
 // class Selectors
-  document.getElementsByClassName('text-content')
+const textContent = document.getElementsByClassName('text-content');
+
+const topContent = document.getElementsByClassName('top-content');
+
+const mainContent = document.getElementsByClassName('main-content');
+
+const bottomContent = document.getElementsByClassName('bottom-content');
+
+const cta = document.getElementsByClassName('cta');
+
+const ctaText = document.getElementsByClassName('cta-text');
+
+const contact = document.getElementsByClassName('contact');
+
 
 // image Selectors by id
-  const logoImg = document.getElementById('logo-img');
-  const ctaImg = document.getElementById('cta-img'); 
-  const middleImg = document.getElementById('middle-img'); 
-  
+const ctaImg = document.getElementById('cta-img');
+
+const logoImg = document.getElementById('logo-img');
+
+const middleImg = document.getElementById('middle-img');
+
+// tag Selectors
+const header = document.getElementsByTagName('header');
+
+const section = document.getElementsByTagName('section');
+
+const div = document.getElementsByTagName('div');
+
+const footer = document.getElementsByTagName('footer');
+
+const links = document.getElementsByTagName('link');
+
+const h1 = document.getElementsByTagName('h4');
+
+const h1 = document.getElementsByTagName('h4');
+
+const p = document.getElementsByTagName('p');
