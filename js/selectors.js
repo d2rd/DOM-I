@@ -2,7 +2,7 @@
 document.getElementById('idName')
 
 document.getElementsByClassName('className')
-
+let anchorRefs = document.getElementsByClassName('a')
 document.getElementsByName('elementName')
 
 document.querySelector('queryString')
@@ -10,12 +10,16 @@ document.querySelector('queryString')
 document.querySelectorAll('queryString')
 
 document.createElement('elementName')
+
+change a property:
+const logo = document.getElementById("logo-img")
+logo.setAttribute('src', siteContent.nav["img-src"])
 */
 
 
 // ANSWERS
 
-console.log(document.getElementById('logo-img'))
+console.log(document.getElementById('logo-img'));
 
 /*
 ===== DEMO CODEPEN =====
@@ -51,4 +55,3 @@ contentDiv.appendChild(img)
 // Array.from(contentDiv.children)
 
 */
-
