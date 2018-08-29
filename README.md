@@ -22,6 +22,9 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 ## Task 3: Update the HTML with the JSON data
 * [ ] Remember, NO direct updating of the HTML source is allowed.
 * [ ] Using your selectors, update the content to match the example file.
+
+## .setAttribute() ##
+
 * [ ] Remember to update the src attributes on images
 
 ## Task 4: Add new content
